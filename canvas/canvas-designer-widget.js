@@ -77,7 +77,7 @@ function CanvasDesigner() {
         if (!event.data || event.data.uid !== designer.uid) return;
 
         if(!!event.data.sdp) {
-            webrtcHandler.createAnswer(event.data, function(response) {
+            window.webrtcHandler.createAnswer(event.data, function(response) {
                 if(response.sdp) {
                     designer.postMessage(response);
                     return;

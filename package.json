@@ -1,11 +1,26 @@
 {
-  "name": "board",
-  "version": "1.0.0",
+  "name": "@kosyachniy/board",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://github.com/kosyachniy/board",
+  "keywords": [
+    "board",
+    "canvas",
+    "draw",
+    "socket"
+  ],
+  "main": "./build/index.js",
+  "main": "./canvas/canvas-designer-widget.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Poloz Alexey",
-  "license": "ISC"
+  "author": "kosyachniy (Alexey Poloz)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosyachniy/board.git"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  }
 }

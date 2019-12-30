@@ -1,25 +1,25 @@
 var CanvasDesigner = require('./canvas/canvas-designer-widget.js');
 // const designer = new window.CanvasDesigner();
-const designer = new CanvasDesigner();
+// const designer = new CanvasDesigner();
 
-// установка параметров
-designer.setSelected('pencil');
-designer.setTools({
-	pencil: true,
-	eraser: true,
-	undo: true,
-});
-designer.icons = {
-	pencil: '/img/pencil.png',
-	eraser: '/img/eraser.png',
-	undo: '/img/undo.png',
-};
+// // установка параметров
+// designer.setSelected('pencil');
+// designer.setTools({
+// 	pencil: true,
+// 	eraser: true,
+// 	undo: true,
+// });
+// designer.icons = {
+// 	pencil: '/img/pencil.png',
+// 	eraser: '/img/eraser.png',
+// 	undo: '/img/undo.png',
+// };
 
-// установка файлов
-designer.widgetHtmlURL = '/canvas/widget.html';
-designer.widgetJsURL = '/canvas/widget.min.js';
+// // установка файлов
+// designer.widgetHtmlURL = '/canvas/widget.html';
+// designer.widgetJsURL = '/canvas/widget.min.js';
 
-module.exports = designer;
+module.exports = CanvasDesigner; // designer;
 
 // // отслеживание изменений
 // designer.addSyncListener((data) => {
